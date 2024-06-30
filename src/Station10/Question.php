@@ -11,5 +11,13 @@ class Question
 
     private function getAnimalName(string $animal): string
     {
+        switch ($animal) {
+            case '猫':
+                return 'ミケ';
+            case '犬':
+                return 'ポチ';
+            default:
+                return 'わかりません';
+        }
     }
 }

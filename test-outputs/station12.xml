@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests/Station12" tests="8" assertions="8" errors="0" warnings="0" failures="0" skipped="0" time="0.291545">
+    <testsuite name="Tests\Station12\Question\FoodTest" file="/app/tests/Station12/Question/FoodTest.php" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.287279">
+      <testcase name="useByDateプロパティが定義されている" class="Tests\Station12\Question\FoodTest" classname="Tests.Station12.Question.FoodTest" file="/app/tests/Station12/Question/FoodTest.php" line="33" assertions="1" time="0.262745"/>
+      <testsuite name="Tests\Station12\Question\FoodTest::食材の定価と消費期限の入力に対し現在時点での価格を返す" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.024534">
+        <testcase name="食材の定価と消費期限の入力に対し現在時点での価格を返す with data set &quot;定価偶数|消費期限まで5h1s&quot;" class="Tests\Station12\Question\FoodTest" classname="Tests.Station12.Question.FoodTest" file="/app/tests/Station12/Question/FoodTest.php" line="51" assertions="1" time="0.024267"/>
+        <testcase name="食材の定価と消費期限の入力に対し現在時点での価格を返す with data set &quot;定価偶数|消費期限まで5h&quot;" class="Tests\Station12\Question\FoodTest" classname="Tests.Station12.Question.FoodTest" file="/app/tests/Station12/Question/FoodTest.php" line="51" assertions="1" time="0.000104"/>
+        <testcase name="食材の定価と消費期限の入力に対し現在時点での価格を返す with data set &quot;定価偶数|消費期限まで4h59m59s&quot;" class="Tests\Station12\Question\FoodTest" classname="Tests.Station12.Question.FoodTest" file="/app/tests/Station12/Question/FoodTest.php" line="51" assertions="1" time="0.000066"/>
+        <testcase name="食材の定価と消費期限の入力に対し現在時点での価格を返す with data set &quot;定価奇数|消費期限まで4h59m59s&quot;" class="Tests\Station12\Question\FoodTest" classname="Tests.Station12.Question.FoodTest" file="/app/tests/Station12/Question/FoodTest.php" line="51" assertions="1" time="0.000097">
+          <system-out>
+Deprecated: Implicit conversion from float 162.5 to int loses precision in /app/src/Station12/Question/Food.php on line 19
+</system-out>
+        </testcase>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Tests\Station12\Question\ProductTest" file="/app/tests/Station12/Question/ProductTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000028">
+      <testcase name="originalPriceプロパティが定義されている" class="Tests\Station12\Question\ProductTest" classname="Tests.Station12.Question.ProductTest" file="/app/tests/Station12/Question/ProductTest.php" line="18" assertions="1" time="0.000028"/>
+    </testsuite>
+    <testsuite name="Tests\Station12\Question\QuestionTest" file="/app/tests/Station12/Question/QuestionTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.004238">
+      <testsuite name="Tests\Station12\Question\QuestionTest::定価と消費期限の入力に対して価格を返す" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.004238">
+        <testcase name="定価と消費期限の入力に対して価格を返す with data set &quot;価格 == 定価&quot;" class="Tests\Station12\Question\QuestionTest" classname="Tests.Station12.Question.QuestionTest" file="/app/tests/Station12/Question/QuestionTest.php" line="32" assertions="1" time="0.004153"/>
+        <testcase name="定価と消費期限の入力に対して価格を返す with data set &quot;価格 == 定価/2&quot;" class="Tests\Station12\Question\QuestionTest" classname="Tests.Station12.Question.QuestionTest" file="/app/tests/Station12/Question/QuestionTest.php" line="32" assertions="1" time="0.000085"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

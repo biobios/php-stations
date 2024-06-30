@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests/Station18" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="3.696958">
+    <testsuite name="Tests\Station18\Question\QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="3.696958">
+      <testcase name="getArray関数内の配列の宣言がshortである" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="21" assertions="1" time="0.468924"/>
+      <testcase name="関数の順序が正しくならんでいる" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="31" assertions="1" time="0.018836"/>
+      <testcase name="elseが使用されていないこと" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="45" assertions="1" time="0.020728"/>
+      <testcase name="php_cs_fixerの結果確認" class="Tests\Station18\Question\QuestionTest" classname="Tests.Station18.Question.QuestionTest" file="/app/tests/Station18/Question/QuestionTest.php" line="55" assertions="1" time="3.188470"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

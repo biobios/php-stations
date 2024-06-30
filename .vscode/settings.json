@@ -1,0 +1,15 @@
+{
+  "php.validate.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+  "intelephense.phpdoc.classTemplate": {
+    "summary": "$1",
+    "tags": [
+      "@package ${1:$SYMBOL_NAMESPACE}"
+    ]
+  },
+  "[pnp]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.formatOnSave": true,
+  },
+  "editor.defaultFormatter": "junstyle.php-cs-fixer",
+  "editor.formatOnSave": true
+}
